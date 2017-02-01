@@ -6,6 +6,7 @@
 #' @return A nx4 data.frame with all options for block sizes for your given parameters.
 #' @examples
 #' calc_blocks(num_blocks=3, levels=3, N=216)
+#' @export
 
 
 calc_blocks <- function(num_blocks, levels, N){
@@ -81,7 +82,7 @@ calc_blocks <- function(num_blocks, levels, N){
 #' @return A vector of 4 options of N based off the given inputs.
 #' @examples
 #' calc_N(blocks=c(3,24), levels=3,approx=225)
-
+#' @export
 
 calc_N <- function(blocks, levels,approx){
   #test inputs
@@ -126,7 +127,7 @@ calc_N <- function(blocks, levels,approx){
 #'            arm_codes = c("a","b","c"),
 #'            arm_names = c("Drug A description", "Drug B description", "Drug C description"),
 #'            out_loc = "C:/Users/Desktop/")
-
+#' @export
 
 create_list <- function(list_name , myseed, site_n,n,block_sizes,arm_codes,arm_names,out_loc){
   #############
