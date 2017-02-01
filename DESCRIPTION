@@ -1,11 +1,12 @@
 Package: medibalance
 Type: Package
-Title: Tools for creating randomization lists inside Balance.
+Title: Tools for Randomization in Balance
 Version: 0.1.1
-Author: Michael Holt
-Maintainer: Michael Holt <mjholt02@gmail.com>
-Description: Tools for creating randomization lists inside Balance.
-License: CC0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.0
+RoxygenNote: 5.0.1
